@@ -13,7 +13,7 @@ class OurQizzTask extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.indigo),
       debugShowCheckedModeBanner: false,
-      home: OpeningScreen(),
+      home: start(),
     );
   }
 }
